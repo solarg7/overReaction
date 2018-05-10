@@ -100,13 +100,9 @@ class App extends Component {
     console.log("paolita");
     return (
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title ><a href="/">Clicky Game</a> </Title>
 
-        <p>Click Count: {this.state.count}</p>
-        <p>Click Count: {this.state.score}</p>
-        <p>Click Count: {this.state.topScore}</p>
-
-        
+        <Title ><a id="titleScore" >Your Score: <a id="score">{this.state.score}</a> | Your Top Score: <a id="score1">{this.state.topScore}</a></a> </Title>
         <br></br>
         
           {this.state.friends.map(friend => (

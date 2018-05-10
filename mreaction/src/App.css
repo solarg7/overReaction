@@ -3,3 +3,18 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+.body{
+  background: "https://goo.gl/images/UQcsRo";
+}
+
+#score, #score1{
+  color: rgb(228, 20, 20);
+  font-family: 'Alfa Slab One', cursive;
+
+}
+
+#titleScore{
+  font-family: 'Alfa Slab One', cursive;
+
+}
